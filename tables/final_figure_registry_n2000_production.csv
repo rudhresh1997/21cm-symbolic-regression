@@ -1,0 +1,8 @@
+figure,file,purpose
+Fig. 1,/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_recoverability_hierarchy_n2000_production.png,Symbolic recoverability hierarchy across parameters
+Fig. 2,/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_pysr_vs_baseline_n2000_production.png,Compare PySR against strongest baseline model
+Fig. 3,/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_complexity_vs_recoverability_n2000_production.png,Relate expression complexity to recoverability
+Fig. 4,/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_information_localization_n2000_production.png,Show redshift/scale information localization
+Fig. 5,/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_noise_robustness_heatmap_n2000_production.png,Noise robustness across parameters
+Fig. 6,/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_bootstrap_coverage_n2000_production.png,Bootstrap uncertainty coverage
+Fig. 7,/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_uncertainty_error_alignment_n2000_production.png,Uncertainty-error alignment
