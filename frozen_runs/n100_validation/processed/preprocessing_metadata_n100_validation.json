@@ -1,0 +1,24 @@
+{
+  "notebook": "04_preprocessing_feature_matrix.ipynb",
+  "data_tag": "n100_validation",
+  "source_feature_matrix": "/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/data/processed/feature_matrix_n100_validation.npy",
+  "source_target_matrix": "/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/data/processed/target_matrix_n100_validation.npy",
+  "n_samples": 100,
+  "n_features": 57,
+  "n_targets": 5,
+  "target_names": [
+    "zeta",
+    "log10_Tvir",
+    "R_mfp",
+    "log10_LX",
+    "sigma8"
+  ],
+  "test_size": 0.2,
+  "random_seed": 42,
+  "feature_representations": {
+    "raw_scaled": "StandardScaler applied to raw Delta^2_21 features",
+    "log_scaled": "log10(Delta^2_21 + epsilon) followed by StandardScaler"
+  },
+  "epsilon_for_log": 1e-08,
+  "notes": "Both raw-standardized and log-standardized feature versions are saved. The log-standardized version may improve symbolic-regression stability because 21 cm power spectra span a broad dynamic range."
+}

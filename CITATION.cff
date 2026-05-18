@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this repository."
+title: "21 cm Symbolic Regression"
+authors:
+  - family-names: Manoharan
+    given-names: Rudhresh
+    affiliation: Baylor University
+year: 2026
+license: MIT
+repository-code: "https://github.com/rudhresh1997/21cm-symbolic-regression"
+keywords:
+  - cosmology
+  - 21 cm cosmology
+  - symbolic regression
+  - interpretable machine learning
+  - parameter inference

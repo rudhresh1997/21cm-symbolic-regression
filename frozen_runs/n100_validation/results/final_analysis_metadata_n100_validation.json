@@ -1,0 +1,48 @@
+{
+  "notebook": "10_complexity_recoverability_figures.ipynb",
+  "data_tag": "n100_validation",
+  "purpose": "Consolidate all n=100 validation outputs into final analysis figures and tables.",
+  "main_scientific_findings": {
+    "recoverability_hierarchy": "sigma8 is strongly recoverable, while astrophysical parameters show weak or poor recoverability in the n=100 validation dataset.",
+    "information_localization": "sigma8 recoverability is strongly localized to early-redshift high-k information.",
+    "complexity": "High symbolic recoverability can occur at low expression complexity, while higher complexity does not guarantee recovery for degenerate parameters.",
+    "uncertainty": "Bootstrap uncertainty is under-calibrated for the current validation dataset."
+  },
+  "final_figures": [
+    {
+      "figure": "Fig. 1",
+      "file": "/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_recoverability_hierarchy_n100_validation.png",
+      "purpose": "Symbolic recoverability hierarchy across parameters"
+    },
+    {
+      "figure": "Fig. 2",
+      "file": "/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_pysr_vs_baseline_n100_validation.png",
+      "purpose": "Compare PySR against strongest baseline model"
+    },
+    {
+      "figure": "Fig. 3",
+      "file": "/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_complexity_vs_recoverability_n100_validation.png",
+      "purpose": "Relate expression complexity to recoverability"
+    },
+    {
+      "figure": "Fig. 4",
+      "file": "/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_information_localization_n100_validation.png",
+      "purpose": "Show redshift/scale information localization"
+    },
+    {
+      "figure": "Fig. 5",
+      "file": "/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_noise_robustness_heatmap_n100_validation.png",
+      "purpose": "Noise robustness across parameters"
+    },
+    {
+      "figure": "Fig. 6",
+      "file": "/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_bootstrap_coverage_n100_validation.png",
+      "purpose": "Bootstrap uncertainty coverage"
+    },
+    {
+      "figure": "Fig. 7",
+      "file": "/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/figures/final/fig_uncertainty_error_alignment_n100_validation.png",
+      "purpose": "Uncertainty-error alignment"
+    }
+  ]
+}

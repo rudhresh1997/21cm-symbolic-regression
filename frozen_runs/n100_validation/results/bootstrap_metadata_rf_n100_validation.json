@@ -1,0 +1,20 @@
+{
+  "notebook": "09_bootstrap_uncertainty.ipynb",
+  "data_tag": "n100_validation",
+  "model": "RandomForestRegressor",
+  "n_bootstrap": 20,
+  "n_trees_per_model": 300,
+  "n_train": 80,
+  "n_test": 20,
+  "n_features": 57,
+  "n_targets": 5,
+  "target_names": [
+    "zeta",
+    "log10_Tvir",
+    "R_mfp",
+    "log10_LX",
+    "sigma8"
+  ],
+  "random_seed": 42,
+  "notes": "Bootstrap uncertainty estimates are computed using independent Random Forest models trained on bootstrap-resampled training sets. This is an exploratory uncertainty diagnostic for the n=100 validation dataset."
+}

@@ -1,0 +1,6 @@
+target,target_label,best_ablation_group,best_ablation_r2,delta_best_minus_full
+sigma8,$\sigma_8$,z_12.0_high_k,0.97907182585912,0.1704327657491007
+R_mfp,$R_{\rm mfp}$,z_8.0_low_k,0.2071393811122953,0.0675527070552706
+log10_LX,$\log_{10}L_X$,z_10.0_all_k,-0.016498529175146,0.0487563409381097
+log10_Tvir,$\log_{10}T_{\rm vir}$,z_8.0_mid_k,0.0718413801332825,0.0241260071323992
+zeta,$\zeta$,z_10.0_low_k,0.1303169644455062,0.3150257885115857

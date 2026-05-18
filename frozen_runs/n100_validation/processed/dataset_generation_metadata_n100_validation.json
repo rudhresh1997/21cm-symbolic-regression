@@ -1,0 +1,28 @@
+{
+  "notebook": "03_dataset_generation_power_spectra.ipynb",
+  "parameter_table": "/Users/rudhresh/Desktop/Research/21cm_symbolic_regression/data/raw/lhs_parameter_table_n100.csv",
+  "max_simulations": 100,
+  "successful_simulations": 100,
+  "failed_simulations": [],
+  "redshifts": [
+    8.0,
+    10.0,
+    12.0
+  ],
+  "n_kbins_requested": 20,
+  "n_features": 57,
+  "target_names": [
+    "zeta",
+    "log10_Tvir",
+    "R_mfp",
+    "log10_LX",
+    "sigma8"
+  ],
+  "base_random_seed": 1234,
+  "user_template": [
+    "simple",
+    "small"
+  ],
+  "elapsed_time_seconds": 423.7718949317932,
+  "notes": "Initial validation dataset generated from coeval 21cmFAST boxes. This is not yet the final production dataset."
+}
