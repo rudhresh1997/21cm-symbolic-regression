@@ -1,0 +1,21 @@
+data_tag: n2000_production
+n_samples: 2000
+random_seed: 42
+
+parameter_ranges:
+  zeta: [10.0, 80.0]
+  log10_Tvir: [4.0, 5.5]
+  R_mfp: [5.0, 30.0]
+  log10_LX: [38.0, 42.0]
+  sigma8: [0.75, 0.90]
+
+simulation:
+  redshifts: [8.0, 10.0, 12.0]
+  n_kbins: 20
+  box_len: 100.0
+  user_template: ["simple", "small"]
+  base_random_seed: 1234
+
+split:
+  test_size: 0.20
+  random_seed: 42
