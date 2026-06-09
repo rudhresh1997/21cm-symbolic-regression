@@ -1,0 +1,43 @@
+{
+  "notebook": "07_redshift_scale_ablations.ipynb",
+  "data_tag": "n2000_production",
+  "model": "RandomForestRegressor",
+  "n_samples": 2000,
+  "n_features_total": 57,
+  "n_targets": 5,
+  "target_names": [
+    "zeta",
+    "log10_Tvir",
+    "R_mfp",
+    "log10_LX",
+    "sigma8"
+  ],
+  "available_redshifts": [
+    12.0,
+    10.0,
+    8.0
+  ],
+  "k_min": 0.08491,
+  "k_max": 3.14991,
+  "k_low_cut": 0.28288093999999997,
+  "k_high_cut": 0.9457198800000001,
+  "feature_groups": {
+    "all_redshifts_all_k": 57,
+    "z_12.0_all_k": 19,
+    "z_10.0_all_k": 19,
+    "z_8.0_all_k": 19,
+    "all_z_low_k": 18,
+    "all_z_mid_k": 21,
+    "all_z_high_k": 18,
+    "z_12.0_low_k": 6,
+    "z_12.0_mid_k": 7,
+    "z_12.0_high_k": 6,
+    "z_10.0_low_k": 6,
+    "z_10.0_mid_k": 7,
+    "z_10.0_high_k": 6,
+    "z_8.0_low_k": 6,
+    "z_8.0_mid_k": 7,
+    "z_8.0_high_k": 6
+  },
+  "notes": "Ablation analysis uses the fixed train/test split from Notebook 04. Results from n=100 are exploratory and should be interpreted as diagnostics of information localization, not final performance claims."
+}

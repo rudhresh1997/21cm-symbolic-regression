@@ -1,0 +1,6 @@
+target,best_baseline_r2,recoverability_class
+sigma8,0.9782344779917249,high
+R_mfp,0.6369719918742851,moderate
+log10_Tvir,-0.011803649536969774,poor
+log10_LX,-0.014740862686264178,poor
+zeta,-0.01683197645015566,poor

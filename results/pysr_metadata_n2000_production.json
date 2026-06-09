@@ -1,0 +1,41 @@
+{
+  "notebook": "06_pysr_symbolic_regression.ipynb",
+  "data_tag": "n2000_production",
+  "n_train": 1600,
+  "n_test": 400,
+  "n_features": 57,
+  "n_targets": 5,
+  "target_names": [
+    "zeta",
+    "log10_Tvir",
+    "R_mfp",
+    "log10_LX",
+    "sigma8"
+  ],
+  "feature_representations": [
+    "raw_scaled",
+    "log_scaled"
+  ],
+  "pysr_settings": {
+    "niterations": 200,
+    "populations": 15,
+    "maxsize": 20,
+    "binary_operators": [
+      "+",
+      "-",
+      "*",
+      "/"
+    ],
+    "unary_operators": [
+      "sqrt",
+      "log"
+    ],
+    "model_selection": "best",
+    "random_state": 42,
+    "deterministic": true,
+    "parallelism": "serial"
+  },
+  "elapsed_time_seconds": 308.4194161891937,
+  "failed_runs": [],
+  "notes": "Initial symbolic regression validation run on n=100 simulations. Results should be interpreted as exploratory and used to guide larger production-scale runs."
+}

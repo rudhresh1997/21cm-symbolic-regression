@@ -1,0 +1,38 @@
+{
+  "notebook": "05_baselines_rf_mlp.ipynb",
+  "data_tag": "n2000_production",
+  "n_train": 1600,
+  "n_test": 400,
+  "n_features": 57,
+  "n_targets": 5,
+  "target_names": [
+    "zeta",
+    "log10_Tvir",
+    "R_mfp",
+    "log10_LX",
+    "sigma8"
+  ],
+  "models": {
+    "RandomForestRegressor": {
+      "n_estimators": 500,
+      "min_samples_leaf": 2,
+      "random_state": 42
+    },
+    "MLPRegressor": {
+      "hidden_layer_sizes": [
+        128,
+        64
+      ],
+      "alpha": 0.0001,
+      "learning_rate_init": 0.001,
+      "max_iter": 2000,
+      "early_stopping": true,
+      "random_state": 42
+    }
+  },
+  "feature_representations": [
+    "raw_scaled",
+    "log_scaled"
+  ],
+  "notes": "Baseline models are intended to characterize parameter recoverability, not to serve as fully optimized production estimators. Results from n=100 should be treated as preliminary."
+}

@@ -1,0 +1,6 @@
+target,coverage_1sigma,coverage_2sigma,nominal_1sigma,nominal_2sigma
+zeta,0.05,0.4,0.68,0.95
+log10_Tvir,0.05,0.15,0.68,0.95
+R_mfp,0.1,0.2,0.68,0.95
+log10_LX,0.15,0.3,0.68,0.95
+sigma8,0.25,0.25,0.68,0.95
